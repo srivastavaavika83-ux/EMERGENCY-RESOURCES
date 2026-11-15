@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Community Emergency Resource Directory</title>
+
+    <!-- Linking CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Community Emergency Resource Directory</h1>
+        <p>Find Help, Stay Safe and Support Everyone</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#resources">Resources</a>
+        <a href="#location">Location</a>
+        <a href="#helpline">Helplines</a>
+        <a href="#admin">Admin</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <h2>Welcome to Emergency Support Directory</h2>
+
+        <p>
+            During emergencies, people may need hospitals,
+            shelters, food, water and other important services.
+            This website provides information about emergency
+            resources in one place.
+        </p>
+
+        <a href="#resources" class="button">
+            Explore Resources
+        </a>
+    </section>
+
+    <!-- Resource Categories -->
+    <section class="container" id="resources">
+
+        <h2 class="heading">Emergency Resources</h2>
+
+        <div class="resource-box">
+
+            <div class="card">
+                <h3>Hospitals</h3>
+                <p><b>Find medical assistance during emergencies.</b></p>
+                <p><b>Location:</b> <a href="https://www.google.com/maps" target="_blank" style="color: #b71c1c;">View Map</a> </p>
+                <p><b>Contact:</b> +91 11 2301 2301</p>
+                <p class="available">Available </p>
+                <a class="location-link" href="https://www.google.com/maps"
+                   target="_blank">View Map</a>
+            </div>
+
+            <div class="card">
+                <h3>Emergency Shelters</h3>
+                <p><b>Find temporary accommodation and safe places.</b></p>
+                <p><b>Location:</b> <a href="https://www.google.com/maps" target="_blank" style="color: #b71c1c;">View Map</a> </p>
+                <p><b>Contact:</b> +91 11 2385 2301</p>
+                <p class="available">Available</p>
+                <a class="location-link" href="https://www.google.com/maps"
+                   target="_blank">View Map</a>
+            </div>
+
+            <div class="card">
+                <h3>Food and Water</h3>
+                <p><b>Find food and clean drinking water facilities.</b></p>
+                <p><b>Location:</b> <a href="https://www.google.com/maps" target="_blank" style="color: #b71c1c;">View Map</a> </p>
+                <p><b>Contact:</b> +91 44 5024 3592</p>
+                <p class="available">Available</p>
+                <a class="location-link" href="https://www.google.com/maps"
+                   target="_blank">View Map</a>
+            </div>
+
+            <div class="card">
+                <h3>Emergency Supplies</h3>
+                <p><b>Find essential emergency supplies.</b></p>
+                <p><b>Location:</b> <a href="https://www.google.com/maps" target="_blank" style="color: #b71c1c;">View Map</a> </p>
+                <p><b>Contact:</b> +91 55 5622 3198</p>
+                <p class="available">Available </p>
+                <a class="location-link"  href="https://www.google.com/maps"
+                   target="_blank">View Map</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="container" id="location">
+
+        <h2 class="heading">Location and Map</h2>
+
+        <div class="location-box">
+            <p>
+                Users can check the location of emergency
+                resources through the map link provided
+                with each resource.
+            </p>
+
+            <a class="location-map" href="https://www.google.com/maps"
+               target="_blank" class="button">
+                Open Google Maps
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Helpline Section -->
+    <section class="container" id="helpline">
+
+        <h2 class="heading">Emergency Helplines</h2>
+
+        <div class="helpline-box">
+            <h3>National Emergency Number</h3>
+            <h1>102</h1>
+
+            <p>
+                Call 102 for immediate emergency assistance
+                in India.
+            </p>
+
+           <button onclick="alert('Calling 112...')" style="background-color: #b71c1c; color: white; border: none; padding: 15px; text-decoration: none; border-radius: 5px; margin-top: 12px;" >Call 112</button>
+        </div><br><br>
+        <div class="helpline-box">
+            <h3>Other National Emergency Helplines</h3>
+            <h1>101</h1>
+            <p>
+                Call 101 for fire emergencies.
+            </p>
+            <button onclick="alert('Calling 101...')" style="background-color: #b71c1c; color: white; border: none; padding: 15px; text-decoration: none; border-radius: 5px; margin-top: 12px;">Call 101</button>
+            <h1>108</h1>
+            <p>
+                Call 108 for Disaster Emergencies Management.
+            </p>
+            <button class="other_emergency" onclick="alert('Calling 108...')" style="background-color: #b71c1c; color: white; border: none; padding: 15px; text-decoration: none; border-radius: 5px; margin-top: 12px;">Call 108</button>
+            <p>
+                Users can find other national helpline numbers for
+                specific emergencies in their area.
+            </p>
+
+            
+
+    </section>
+
+    <!-- Verification Section -->
+    <section class="container">
+
+        <h2 class="heading">Resource Verification</h2>
+
+        <div class="verification-box">
+            <p>
+                Emergency resource information should be
+                checked before sharing with the public.
+            </p>
+
+            <p><b>Verification Status:</b> Demo information</p>
+            <p><b>Last Updated:</b> Not available</p>
+        </div>
+
+    </section>
+
+    <!-- Admin Section -->
+    <section class="container" id="admin">
+
+        <h2 class="heading">Admin Update Section</h2>
+
+        <div class="admin-box">
+
+            <h3>Add New Emergency Resource</h3>
+
+            <form>
+
+                <label>Resource Name:</label>
+                <input type="text"
+                       placeholder="Enter resource name">
+
+                <label>Resource Category:</label>
+                <select>
+                    <option>Select Category</option>
+                    <option>Hospital</option>
+                    <option>Shelter</option>
+                    <option>Food and Water</option>
+                    <option>Emergency Supplies</option>
+                </select>
+
+                <label>Location:</label>
+                <input type="text"
+                       placeholder="Enter location">
+
+                <label>Contact Number:</label>
+                <input type="text"
+                       placeholder="Enter contact number">
+
+                <label>Email:</label>
+                <input type="email"
+                       placeholder="Enter email">
+                       <label>Area:</label>
+                <select>
+                    <option>Select Area</option>
+                    <option>Urban</option>
+                    <option>Rular</option>
+                    </select>
+
+                <button onclick="alert('Resource submitted successfully!')" style="background-color: #b71c1c; color: white; border: none; padding: 15px 273px ; margin: 10px auto; text-decoration: none; border-radius: 5px; margin-top: 12px;" >Submit</button>
+
+            </form>
+
+            <p class="note">
+                Note: This is a sample admin form.
+                It does not save or update information.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="container" id="about">
+
+        <h2 class="heading">About Our Project</h2>
+
+        <div class="about-box">
+            <p>
+                The Community Emergency Resource Directory
+                is designed to help people find emergency
+                support services in one place.
+
+                It provides information about hospitals,
+                shelters, food distribution centres,
+                emergency supplies and helplines.
+
+                The main aim is to make emergency information
+                easy to find and understand.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Community Emergency Resource Directory</h3>
+
+        <p>Helping People During Emergency Situations</p>
+
+        <p>© 2026 Community Emergency Directory</p>
+    </footer>
+
+</body>
+</html>
